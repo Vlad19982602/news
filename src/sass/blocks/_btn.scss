@@ -1,0 +1,74 @@
+.news-section .news .btn.mobile {
+    display: none;
+}
+.btn {
+    position: relative;
+    background: transparent;
+    color: #000;
+    border: 1px solid #000;
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.39;
+    text-align: center;
+    width: 100%;
+    max-width: 168px;
+    height: max-content;
+    min-height: 37px;
+    padding: 7px 17px;
+    cursor: pointer;
+    transition-duration: .2s;
+    margin: 5px 0;
+}
+
+.news-section .news__header .btn {
+    max-width: unset;
+    width: unset;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+}
+.btn.btn_solid {
+    text-transform: uppercase;
+    color: #fff;
+    background: $main-color;
+    border: 1px solid $main-color;
+}
+.btn.btn_solid:hover {
+	background: #fff;
+	color: $main-color;
+	border-color: $main-color;
+}
+
+
+.aside-news-events .btn_big {
+    max-width: 100%;
+    margin-bottom: 10px;
+	font-size: 14px;
+}
+.btn_big {
+    max-width: 224px;
+}
+
+.btn_vk {
+    border: 1px solid $main-color !important;
+    color: $main-color;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.37;
+    text-transform: uppercase;
+    transition-duration: .3s;
+}
+
+.btn_anim, .btn_vk:hover {
+    background: $main-color !important;
+}
+
+.btn_vk:hover {
+    color: #FFF !important;
+}
+.btn:focus, .btn:hover {
+    color: $main-color;
+    background: transparent;
+    border: 1px solid $main-color;
+}
